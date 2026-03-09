@@ -1,3 +1,5 @@
+/* #region Default Styling */
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,6 +17,12 @@ h1 {
 
 h2 {
     font-size: 2em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0;
 }
 
 p {
@@ -112,3 +120,29 @@ article figure img {
 footer img {
     margin-left: 32px;
 }
+
+/* #endregion */
+
+/* #region Medlemmer */
+
+article figure.four_pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+/* #endregion */
+
+/* #region The Band - Live */
+
+.live_bookede_koncerter {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+
+
+/* #endregion */
