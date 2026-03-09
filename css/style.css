@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -125,24 +125,14 @@ footer img {
 
 /* #region Medlemmer */
 
-article figure.four_pictures {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
+/* -------- text -------- */
+
+.article_medlemmer h1 {
+    line-height: 1.5;
 }
 
-/* #endregion */
-
-/* #region The Band - Live */
-
-.live_bookede_koncerter {
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
+.article_medlemmer p {
+    margin-top: 0;
 }
-
-
 
 /* #endregion */
