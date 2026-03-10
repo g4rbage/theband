@@ -13,6 +13,7 @@ body {
 h1 {
     font-size: 3em;
     margin: 0;
+    line-height: 1.5;
 }
 
 h2 {
@@ -27,6 +28,7 @@ h3 {
 
 p {
     line-height: 1.5;
+    margin-top: 0;
 }
 
 /* -------- layout -------- */
@@ -90,27 +92,27 @@ nav li a:hover {
 
 /* -------- main content -------- */
 
-article {
+.article_layout {
     display: flex;
     justify-content: space-between;
 }
 
-article section {
+.article_layout section {
     width: 40%;
 }
 
-article figure {
+.article_layout figure {
     width: 58%;
     margin: 0;
 }
 
-article figure.four_pictures {
+.article_layout  figure.four_pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
 }
 
-article figure img {
+.article_layout figure img {
     width: 100%;
     height: auto;
 }
@@ -119,20 +121,6 @@ article figure img {
 
 footer img {
     margin-left: 32px;
-}
-
-/* #endregion */
-
-/* #region Medlemmer */
-
-/* -------- text -------- */
-
-.article_medlemmer h1 {
-    line-height: 1.5;
-}
-
-.article_medlemmer p {
-    margin-top: 0;
 }
 
 /* #endregion */
