@@ -1,13 +1,12 @@
-/* #region Default Styling */
+/* #region Variables */
 
-
-/* Variables */
 :root {
     --primary-bg-color: #ffff;
-    --primary-text-color: #0000;
 }
 
-/* Html & Body */
+/* #endregion */
+
+/* #region Default Styling */
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +15,6 @@ html {
 body {
     margin: 0;
     background-color: var(--primary-bg-color);
-    color: var(--primary-text-color);
 }
 
 /* -------- text og font -------- */
@@ -167,10 +165,14 @@ footer img {
     /* max-width: 60%; */
 }
 
+.signup-form input::placeholder {
+    text-align: center;
+}
+
 .signup-form button {
     margin: 0;
-    padding: 0;
-    /* width: 5em; */
+    padding: .5em;
+    /* width: 60%; */
 }
 
 /* #endregion */
